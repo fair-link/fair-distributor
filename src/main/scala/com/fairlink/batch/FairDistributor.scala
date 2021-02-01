@@ -1,11 +1,10 @@
-package com.fairlink
+package com.fairlink.batch
 
-import com.fairlink.constants.Constants
-import com.fairlink.core.implementation.FairDistributorJob
+import com.fairlink.batch.constants.Constants
+import com.fairlink.batch.core.implementation.FairDistributorJob
 
 import java.time.LocalDate
 import java.time.format.{DateTimeFormatter, DateTimeParseException}
-
 
 object FairDistributor {
 

@@ -1,7 +1,7 @@
-package com.fairlink.infrastructure.implementation
+package com.fairlink.batch.infrastructure.implementation
 
-import com.fairlink.infrastructure.exception.PgTableException
-import com.fairlink.infrastructure.interface.TableWriter
+import com.fairlink.batch.infrastructure.exception.PgTableException
+import com.fairlink.batch.infrastructure.interface.TableWriter
 import org.apache.spark.SparkException
 import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 

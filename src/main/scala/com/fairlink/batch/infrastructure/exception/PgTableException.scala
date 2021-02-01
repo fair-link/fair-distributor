@@ -1,3 +1,3 @@
-package com.fairlink.infrastructure.exception
+package com.fairlink.batch.infrastructure.exception
 
 case class PgTableException(msg: String) extends Exception(msg)

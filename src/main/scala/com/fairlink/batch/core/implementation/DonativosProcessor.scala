@@ -1,7 +1,7 @@
-package com.fairlink.core.implementation
+package com.fairlink.batch.core.implementation
 
-import com.fairlink.constants.Constants
-import com.fairlink.core.interface.Processor
+import com.fairlink.batch.constants.Constants
+import com.fairlink.batch.core.interface.Processor
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}

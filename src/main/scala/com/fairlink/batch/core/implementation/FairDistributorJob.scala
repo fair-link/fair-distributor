@@ -1,9 +1,9 @@
-package com.fairlink.core.implementation
+package com.fairlink.batch.core.implementation
 
-import com.fairlink.constants.Constants
-import com.fairlink.core.interface.{Job, Processor}
-import com.fairlink.infrastructure.implementation.{PgTableReader, PgTableWriter}
-import com.fairlink.infrastructure.interface.{TableReader, TableWriter}
+import com.fairlink.batch.constants.Constants
+import com.fairlink.batch.core.interface.{Job, Processor}
+import com.fairlink.batch.infrastructure.implementation.{PgTableReader, PgTableWriter}
+import com.fairlink.batch.infrastructure.interface.{TableReader, TableWriter}
 import org.apache.spark.sql.SparkSession
 
 case class FairDistributorJob(private val odate: String) extends Job {

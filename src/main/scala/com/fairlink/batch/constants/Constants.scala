@@ -1,4 +1,4 @@
-package com.fairlink.constants
+package com.fairlink.batch.constants
 
 object Constants {
 

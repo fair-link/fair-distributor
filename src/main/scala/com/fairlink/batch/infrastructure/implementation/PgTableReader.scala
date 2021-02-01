@@ -1,6 +1,6 @@
-package com.fairlink.infrastructure.implementation
+package com.fairlink.batch.infrastructure.implementation
 
-import com.fairlink.infrastructure.interface.TableReader
+import com.fairlink.batch.infrastructure.interface.TableReader
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 case class PgTableReader(sparkSession: SparkSession, host: String, db: String, user: String, pass: String) extends TableReader {

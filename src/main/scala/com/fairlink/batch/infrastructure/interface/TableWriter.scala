@@ -1,4 +1,4 @@
-package com.fairlink.infrastructure.interface
+package com.fairlink.batch.infrastructure.interface
 
 import org.apache.spark.sql.DataFrame
 
